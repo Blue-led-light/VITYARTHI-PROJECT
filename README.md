@@ -57,3 +57,8 @@ The project currently uses these example rules:
 3. Try entering a non-numeric value for drop years or marks and confirm that the program asks again.
 4. Enter a negative drop-year count or a value below 0 or above 100 and make sure it is rejected.
 5. Test values near the threshold for each rule to check both eligible and ineligible results.
+
+Screenshot
+
+<img width="346" height="379" alt="Screenshot 2026-09-27 195317" src="https://github.com/user-attachments/assets/3f520185-5b93-439b-823b-b18d5ceb8765" />
+
