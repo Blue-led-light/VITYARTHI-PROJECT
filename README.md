@@ -2,7 +2,7 @@ College Eligibility Checker
 
 Overview
 
-This is a small Python project I built to help students quickly compare their Class 12 marks with a few common college and entrance exam eligibility rules. The program asks for the student’s name, number of drop years, and their marks in major subjects, and then checks how they match up against sample criteria for JEE, NEET UG, state government colleges, VITEEE, and BITSAT.
+This is a small Python project I built to help students quickly compare their Class 12 marks with a few common college and entrance exam eligibility rules. The program asks for the student’s name, number of drop years, and their marks in major subjects, and then checks how they match up against sample criteria for JEE, NEET UG, state government colleges, VITEEE, and BITSAT
 
 Features
 
