@@ -1,17 +1,16 @@
 College Eligibility Checker
 
-Overview
+Summary
 
-This is a small Python project I built to help students quickly compare their Class 12 marks with a few common college and entrance exam eligibility rules. The program asks for the student’s name, number of drop years, and their marks in major subjects, and then checks how they match up against sample criteria for JEE, NEET UG, state government colleges, VITEEE, and BITSAT
+This is a college's entrance rules, eligibility, small, class. After requesting the student's name, number of drop years, and major subject grades, the computer compares these to sample requirements for JEE, NEET UG, state government colleges, VITEEE, and BITSAT.
 
 Features
-
-- Accepts a student’s name and rejects empty input
+- Rejects blank input while accepting a student's name
 - Takes a non-negative number of drop years
-- Validates marks from 0 to 100 for Physics, Chemistry, Mathematics, Biology, Computer, and English
+Verifies scores in Physics, Chemistry, Mathematics, Biology, Computer Science, and English ranging from 0 to 100.
 - Re-prompts the user if any value is invalid
-- Checks eligibility against five different categories
-- Displays a final summary with the student’s details and results
+Verifies eligibility using five distinct categories.
+A final summary containing the student's information and outcomes is displayed.
 
 Sample Rules
 
@@ -52,11 +51,11 @@ The project currently uses these example rules:
 
  Testing
 
-1. Run `python main.py` and enter a valid name, `0` drop years, and marks like `80` for every subject. Check that the output includes the name, all six marks, and all five eligibility results.
-2. Run it again with a blank name and make sure the program asks for a valid name.
-3. Try entering a non-numeric value for drop years or marks and confirm that the program asks again.
-4. Enter a negative drop-year count or a value below 0 or above 100 and make sure it is rejected.
-5. Test values near the threshold for each rule to check both eligible and ineligible results.
+1. Run `python main.py` and give a legitimate name, `0` drop years and marks like `80` for all the subjects. Name: John Doe Marks: 80, 90, 75, 88, 92, 78 Eligibility Results: 1. Passed 2. Eligible for further education 3. Awarded distinction in Mathematics 4. Not eligible for scholarship 5. Recommended for advanced program
+2. Run it again, this time with a blank name, and check that the application prompts for a legitimate name.
+3. Enter a non-numeric figure for drop years or marks and ensure that the program prompts again.
+4. Enter a negative drop year number or a number below 0 or above 100 and verify it is refused.
+5. For each rule, test values near the threshold to validate results for both ineligible and eligible cases.
 
 Screenshot
 
