@@ -2,24 +2,23 @@ Project Statement: College Eligibility Checker
 
 Problem Statement
 
-After finishing Class 12, students are often confused by the different eligibility rules for colleges and entrance exams. Every course has its own requirements, and comparing marks manually can become stressful and time-consuming. This project was created to make that process simpler by letting a student enter their details once and quickly check how they match against a few common eligibility examples.
+Students are sometimes confused by the numerous eligibility criteria for universities and admission tests after passing Class 12. Every course has its own prerequisites and it's highly unpleasant and time consuming to compare marks manually. The goal of this project was to make the process easier for a student to enter their information once and then quickly see how they stack up with a few common examples of eligibility.
 
-Project Scope
+Scope of Project
 
-The program asks for a student's name, number of drop years, and marks in Physics, Chemistry, Mathematics, Biology, Computer, and English. It checks whether the input is valid and asks the user to re-enter values if something is wrong. After that, it compares the data with sample eligibility rules for JEE, NEET UG, state government colleges, VITEEE, and BITSAT.
+The program takes student’s name, number of years dropped and marks in Physics, Chemistry, Mathematics, Biology, Computer and English. It validates the input and prompts the user to enter values again in case of any error. It then compares the data with the sample eligibility standards for JEE, NEET UG, state government colleges, VITEEE and BITSAT.
 
-This project is meant to be a simple local tool for learning and demonstration. It does not connect to real admission databases, verify official records, or suggest final college decisions. The cutoffs used in the program are simplified examples and should not be treated as official eligibility advice.
+This project is intended as a small local tool for learning and demo purposes. It does not connect to actual admission databases, does not confirm official records or indicate final college choices. The cutoffs utilized in the software are simplified examples and are not to be considered official eligibility guidance.
 
 Target Users
+- Class 12 students willing to compare their marks with sample eligibility criteria.
+- Students will study Python, input validation, functions and conditional logic.
+- Teachers or mentors that desire a modest, modular project that demonstrates practical programming.
 
-- Class 12 students who want to compare their marks with sample eligibility criteria.
-- Students learning Python, input validation, functions, and conditional logic.
-- Teachers or mentors who want a small, modular project to demonstrate practical programming.
+Features - High Level
 
-High-Level Features
-
-- Collects a student's name, drop-year count, and six subject marks through the command line.
-- Validates the data and re-prompts when an input is invalid.
-- Runs separate eligibility checks for multiple exam and college categories.
-- Displays a personal summary along with the final eligibility results.
-- Keeps the project organized into separate Python modules for input handling, logic, and output.
+- Accepts student name, drop year count and marks of six subjects from command line.
+- Checks validity of data and asks again if invalid.
+- Individual eligibility checks for different exam and college categories are carried out.
+- Gives a personal summary and the final eligibility findings.
+- The project is broken into different Python modules for input, logic, and output.
